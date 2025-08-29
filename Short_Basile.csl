@@ -21,7 +21,7 @@
   </macro>
   
   <macro name="title">
-    <text variable="container-title" form="short"/>
+    <text variable="container-title" form="short" font-style="italic"/>
   </macro>
   
   <macro name="year">
@@ -33,7 +33,7 @@
   <macro name="doi">
     <choose>
       <if variable="DOI">
-        <text variable="DOI" prefix="(doi: " suffix=")"/>
+        <text variable="DOI" prefix="(https://doi.org/" suffix=")"/>
       </if>
       <else>
         <text value="(doi)"/>
@@ -45,7 +45,7 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout delimiter="," vertical-align="sup">
+    <layout delimiter="," prefix="[" suffix="]">
       <text variable="citation-number"/>
     </layout>
   </citation>
