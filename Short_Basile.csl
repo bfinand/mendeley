@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
   <info>
-    <title>Custom Style - Numbered Citations with Abbreviated Bibliography</title>
+    <title>Short Basile</title>
     <id>http://www.zotero.org/styles/custom-numbered-abbreviated</id>
     <link href="http://www.zotero.org/styles/custom-numbered-abbreviated" rel="self"/>
     <author>
@@ -60,3 +60,4 @@
     </layout>
   </bibliography>
 </style>
+
